@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+
+    <title>Caça ao tesouro</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario0.jpeg" alt="">
+            <p>Quer se aventurar por São Paulo?</p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-atenção.jpeg" alt="">
+            <p>Quem disse que você tem opção!?</p>
+            <button class="btn-proximo" data-proximo="1">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-arvore.jpeg" alt="">
+            <p>Em baixo da árvore pode encontra o caminho para a gelida vontade de voar!</p>
+            <button class="btn-proximo" data-proximo="4">Caraguatatuba</button>
+            <button class="btn-proximo" data-proximo="5">Campos de Jordão</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-praia.jpeg" alt="">
+            <p>Você começa sua jornada em Caraguatatuba, chegando a Martin de sá, o fim do rio pode lhe guiar.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar a pista no rio</button>
+            <button class="btn-proximo" data-proximo="7">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/caminho-ao-capivari.jpg" alt="">
+            <p>Em Campos do Jordão, na bernecia o mercadão localizar, com o tio João se deve falar</p>
+            <button class="btn-proximo" data-proximo="8">Falar com o tio João</button>
+            <button class="btn-proximo" data-proximo="9">Passear pela cidade</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-voltar-casa.png" alt="">
+            <p>Ficou tarde! Hora de voltar.</p>
+            <button class="btn-proximo" data-proximo="7">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario0.jpeg" alt="">
+            <p>Acabou sua jornada! Quer recomeçar?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-tio-joão.jpeg" alt="">
+            <p>O tio joão disse: No fim da água gelada você acha a resposta para a sua charada</p>
+            <button class="btn-proximo" data-proximo="4">Caraguatatuba</button>
+            <button class="btn-proximo" data-proximo="10">Cataratas do Iguaçu</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-cataratas.jpeg" alt="">
+            <p>As Cataratas do Iguaçu se localiza entre o Paraná e o Paraguai. Você quer recomeçar?</p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-garrafa.jpeg" alt="">
+            <p>Você encontra uma garrafa selada que diz "Sem o selar quando começar a cantar, o ritmo paulista memorias desperta"</p>
+            <button class="btn-proximo" data-proximo="11">Meu lugar</button>
+            <button class="btn-proximo" data-proximo="12">Negro drama</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <audio controls autoplay>
+                <source src="1-arlindo-cruz-meu-lugar.ogg" type="audio/ogg">
+                <source src="1-arlindo-cruz-meu-lugar.mp3" type="audio/mpeg">
+              </audio>
+            <p>Linda a música, mas ela é carioca e o nosso foco é São Paulo.</p>
+            <button class="btn-proximo" data-proximo="1">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <audio controls autoplay>
+                <source src="2-Negro-Drama.ogg" type="audio/ogg">
+                <source src="2-Negro-Drama.mp3" type="audio/mpeg">
+              </audio>
+            <p>Garrafa paulista se abre revelando a proxima parada</p>
+            <button class="btn-proximo" data-proximo="13">Ler</button>
+            <button class="btn-proximo" data-proximo="7">Rasga</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="" alt="">
+            <p>O fim de sua jornada se encontra em terra sagrada</p>
+            <button class="btn-proximo" data-proximo="14">Brotas</button>
+            <button class="btn-proximo" data-proximo="15">Aparecida</button>
+        </div>''
+
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-brotas.jpeg" alt="">
+            <p>Cidade bela e incrivel, mas ao preocurar por aqui me dizem pra ir a cidade que recebe a maior quantidade de romeiro</p>
+            <button class="btn-proximo" data-proximo="15">Aparecida</button>
+            <button class="btn-proximo" data-proximo="7">Voltar pra casa</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-aparecida.jpeg" alt="">
+            <p>Ao chegar em Aparecida você encontra uma feira com muitas variedades de coisa, e resolve comprar algumas como recordação e presente a familiares</p>
+            <button class="btn-proximo" data-proximo="16">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="img/cenario-voltar-casa.png" alt="">
+            <p>Foi um passeio longo e cansativo, esta na hora de volta pra casa</p>
+            <button class="btn-proximo" data-proximo="7">voltar pra casa</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
